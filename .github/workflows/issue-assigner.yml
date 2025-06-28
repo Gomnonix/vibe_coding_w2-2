@@ -1,0 +1,14 @@
+name: Issue Assigner
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 이슈 자동 할당
+        uses: pozil/auto-assign-issue@v1.13.0
+        with:
+          assignees: baggiung 

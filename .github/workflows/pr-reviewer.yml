@@ -1,0 +1,14 @@
+name: PR Reviewer
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  reviewer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR 자동 리뷰어 등록
+        uses: ahmadnassri/action-auto-assign-reviewers@v2.0.0
+        with:
+          reviewers: baggiung 

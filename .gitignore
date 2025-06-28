@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Logs
+*.log
+
+# 기타
+*.swp
+*.swo
+.idea/ 

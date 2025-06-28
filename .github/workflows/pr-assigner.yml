@@ -1,0 +1,14 @@
+name: PR Assigner
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR 자동 할당
+        uses: kentaro-m/auto-assign-action@v1.2.4
+        with:
+          configuration-path: .github/auto_assign.yml 

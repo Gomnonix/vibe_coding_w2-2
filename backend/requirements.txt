@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+langgraph
+langchain
+duckduckgo-search
+google-generativeai
+streamlit
+streamlit-chat
+pytest
+httpx
+langchain-google-genai
+langchain-community
