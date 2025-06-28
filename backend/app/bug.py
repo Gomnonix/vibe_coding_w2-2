@@ -1,2 +1,2 @@
 def bug_func():
-    return 1/0
+    return 1/1
